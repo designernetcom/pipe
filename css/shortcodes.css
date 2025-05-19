@@ -58,7 +58,7 @@
 }
 
 .dark-bg .accordion .accordion-body {
-    color:white !important;
+    color: white !important;
 }
 
 .dark-bg .accordion .accordion-button:not(.collapsed) {
@@ -344,7 +344,7 @@
 .team-member .team-description {
     width: 100%;
     padding: 30px;
-    background: #0d5431 ;
+    background: #0d5431;
 }
 
 .team-member .team-description span {
@@ -360,7 +360,7 @@
 }
 
 .team-member h5 a:hover {
-    color: #23244a;
+    color: #ffffff;
 }
 
 .team-member .team-social-icon {
@@ -410,7 +410,7 @@
 }
 
 .team-member:hover .team-description {
-    background: #aa3133 ;
+    background: #aa3133;
     color: #ffffff;
 }
 
@@ -436,12 +436,9 @@
 .team-images::before,
 .team-images::after {
     position: absolute;
-    top: 30px;
-    right: 30px;
-    bottom: 0;
-    left: 30px;
     content: '';
     opacity: 0;
+    background-color: #0d543042;
     -webkit-transition: opacity 0.90s, -webkit-transform 0.90s;
     transition: opacity 0.90s, transform 0.90s;
     z-index: 99;
@@ -606,20 +603,17 @@
     background: #ffffff;
 }
 
-.tab.style-2 .nav-tabs {
-    margin-bottom: 15px;
-    border-radius: 0;
-    background: #ffffff
-}
+
 
 .tab.style-2 .nav-tabs .nav-link {
-    background: #ff9b9b;
+    border: 1px solid gray;
     color: #000000;
     border-radius: 0;
     border-right: 1px solid #efefef;
     font-size: 20px !important;
     margin-bottom: 8px;
-    border-radius:10px  ;
+    border-radius: 10px;
+
 }
 
 .tab.style-2 .nav-tabs .nav-link:last-child {
@@ -1305,6 +1299,8 @@ blockquote {
 .testimonial.style-3 {
     padding: 30px;
     margin-top: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: #e8f0f2 !important;
 }
 
 .testimonial.style-3 .testimonial-avatar {
@@ -1339,11 +1335,12 @@ blockquote {
     Featured Box
 ------------------------*/
 .featured-item {
-    padding: 30px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     margin: 15px;
     border-radius: 5px;
-    border: 1px solid rgb(194, 0, 0) !important;
     position: relative;
+
+
 }
 
 .featured-item .featured-icon {
@@ -1360,12 +1357,28 @@ blockquote {
 
 .featured-desc p {
     margin-bottom: 0;
+    padding: 15px 15px;
+    background-color: #f3f4f6;
+    color: black !important;
+}
+
+.featured-title {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #0d5431;
+
+
 }
 
 .featured-title h5 {
     margin-bottom: 15px;
+    margin-top: 15px;
     font-weight: 500;
     text-transform: capitalize;
+    color: white !important;
 }
 
 .dark-bg .featured-title h5,
@@ -1498,8 +1511,8 @@ blockquote {
 
 }
 
-.featured-item:hover .featured-title{
- color: black !important;
+.featured-item:hover .featured-title {
+    color: black !important;
 
 }
 
@@ -1527,6 +1540,7 @@ blockquote {
 
 .featured-item.bottom-icon p {
     line-height: 28px;
+    color: #202020 !important;
 }
 
 .featured-item.bottom-icon:hover h5,
@@ -1593,7 +1607,7 @@ blockquote {
 }
 
 .btn::after {
-    background: #f9a305;
+    background-color: #0d5431 !important;
 }
 
 .btn:hover {
@@ -1625,7 +1639,7 @@ blockquote {
 }
 
 .btn.btn-border {
-    border: 1px solid #f9a305;
+    border: 1px solid #0d5431;
 }
 
 .btn.btn-radius {
@@ -1821,7 +1835,7 @@ blockquote {
 
 .title span {
     position: relative;
-    color: #000000 
+    color: #000000
 }
 
 .section-title h6 {
